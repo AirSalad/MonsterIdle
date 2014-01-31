@@ -20,12 +20,7 @@ package
 		private var cameraClone:FlxSprite;
 		
 		//UI
-		private var background:FlxSprite;
-		private var triggerBar:FlxSprite;
-		private var triggerCenter:FlxSprite;
 		
-		private var triggerHit:FlxSprite;
-		private var trigger:FlxSprite;
 		
 		
 		//GENERAL TEXT VARS
@@ -35,77 +30,8 @@ package
 		
 		private var eventPhase:String;
 		
-		private var playerAction:FlxText;
-		private var chargeValue:FlxText;
-		private var enemyHP:FlxText;
-		private var playerHP:FlxText;
-		
-		
 		//CLASS VARIABLES
 		public static var player:Player;
-		
-		public var triggerSize:int = 50;
-		public var triggerPosition:int = 0;
-		public var triggerArray:Array;
-		public var enemyAttackPatternA:Array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1];
-		public var playerAttackPatternA:Array = [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1];
-		
-		
-		public var playerMin:int = 1;
-		public var playerCurrent:int = 1;
-		public var playerMax:int = 1;
-		
-		public var currentCharge:int = 0;
-		public var maxCharge:int = 0;
-		
-			//Player
-			
-			//Health Stock
-		public var playerMinHP:int = 1;
-		public var playerCurrentHP:int = 100;
-		public var playerMaxHP:int = 100;
-			//Health Regeneration
-			//Health Stock Bonus
-			//Armor Type
-			//Armor Value
-			//Shield Type
-			//Shield Value
-			//Shield Regeneration
-			
-			//Weapon Type
-			//Weapon Physical Damage
-		public var playerMinDamage:int = 1;
-		public var playerCurrentDamage:int = 1;
-		public var playerMaxDamage:int = 100;
-			//Weapon Spirit Damage
-			//Weapon Trigger Speed
-		public var playerMinAttackSpeed:int = 1;
-		public var playerCurrentAttackSpeed:int = 1;
-		public var playerMaxAttackSpeed:int = 1;
-			//Weapon Trigger Count
-		public var playerMinAttackCount:int = 0;
-		public var playerCurrentAttackCount:int = 1;
-		public var playerMaxAttackCount:int = 1;
-			//Weapon Critical Hit rate
-			//Weapon Critical Damage Modifier
-			//Weapon Miss rate
-			
-			
-			//Movement Speed
-		public var playerMinMovementSpeed:int = 1;
-		public var playerCurrentMovementSpeed:int = 2;
-		public var playerMaxMovementSpeed:int = 2;
-			//Movement Acceleration
-			//Movement Velocity
-			//Movement Friction
-			
-		
-		
-			//Enemy
-			//Health
-		public var enemyMinHP:int = 1;
-		public var enemyCurrentHP:int = 100;
-		public var enemyMaxHP:int = 100;
 		
 		//INITIALISES STATE
 		public function PlayState() 
